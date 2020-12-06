@@ -1,0 +1,243 @@
+model CRA
+
+class Detector
+    attributes
+        bienAnclado : Boolean init = true
+    operations
+        perderAnclaje()
+            begin
+            self.bienAnclado := false;
+            self.unidad.comunicarPerdida();
+            end 
+            pre: self.bienAnclado = true 
+            post: self.bienAnclado = false
+end
+
+abstract class Unidad 
+    attributes  
+        numero : Integer
+    operations 
+        comunicarPerdida()
+            begin 
+            end
+        unidadArreglada()
+            begin 
+            end
+        espera()
+            begin 
+            end
+    statemachines
+        psm Anclaje
+            states
+            s : initial 
+            BienAnclada 
+            MalAnclada 
+            transitions
+            s -> BienAnclada 
+            BienAnclada -> MalAnclada {comunicarPerdida() [self.detector.bienAnclado = false]}
+            MalAnclada -> BienAnclada {unidadArreglada() [self.detector.bienAnclado = true]}
+            end 
+end 
+ 
+class Vehiculo < Unidad 
+    operations 
+        comunicarPerdida()
+            begin   
+            self.noria.parada();
+            self.cra.peticion(self, self.noria);
+            end
+        unidadArreglada()
+            begin 
+            self.detector.bienAnclado := true;
+            self.noria.estaOperativo();
+            end  
+            pre: self.detector.bienAnclado = false 
+            post: self.detector.bienAnclado = true
+        espera()
+            begin 
+            self.cra.peticion(self, self.noria);
+            end
+end
+
+class Vagon < Unidad
+    operations 
+        comunicarPerdida()
+            begin   
+            self.montaniaRusa.parada();
+            self.cra.peticion(self, self.montaniaRusa);
+            end
+        unidadArreglada()
+            begin 
+            self.detector.bienAnclado := true;
+            self.montaniaRusa.estaOperativo();
+            end  
+            pre: self.detector.bienAnclado = false 
+            post: self.detector.bienAnclado = true
+        espera()
+            begin
+            self.cra.peticion(self, self.montaniaRusa);
+            end
+end
+
+abstract class Atraccion
+    attributes
+        calle : String
+        operativo : Boolean init = true
+    operations
+        parada()
+            begin   
+            end
+        estaOperativo()
+            begin 
+            end 
+    statemachines
+        psm Estado
+            states 
+            s : initial 
+            Operativa 
+            Averiada 
+            transitions
+            s -> Operativa 
+            Operativa -> Averiada {parada() [self.operativo = false]}
+            Averiada -> Operativa {estaOperativo() [self.operativo = true]} 
+            end
+end
+
+class Noria < Atraccion
+    operations
+        parada()
+            begin   
+            if self.operativo = true then self.operativo := false end
+            end
+            post: self.operativo = false
+        estaOperativo() 
+            begin
+            if self.vehiculos.detector->forAll(x | x.bienAnclado = true or x = null) then self.operativo := true end
+            end  
+end
+
+class MontaniaRusa < Atraccion
+    operations
+        parada()
+            begin   
+            if self.operativo = true then self.operativo := false end
+            end
+            post: self.operativo = false
+        estaOperativo() 
+            begin
+            if self.vagones.detector->forAll(x | x.bienAnclado = true or x = null) then self.operativo := true end
+            end  
+end
+
+class CRA
+    operations
+        peticion(u : Unidad, a : Atraccion)
+            begin 
+            if self.dispositivos->forAll(x | x.operativo = false) then u.espera() else self.dispositivos->any(x | x.operativo = true).supervision(a.calle, u.numero) end
+            end
+end
+
+class Dispositivo
+    attributes
+        avisosResueltos : Integer init = 0
+        operativo : Boolean init = true
+    operations
+        supervision(c : String, n : Integer)
+            begin
+            self.operario.comenzarSupervision(c, n);
+            end
+        averiaSolucionada(c : String, n : Integer)
+            begin
+            self.avisosResueltos := self.avisosResueltos + 1;
+            self.operativo := true;
+            (self.cra.unidades->select(x | x.numero = n)->asSequence()->first()).unidadArreglada();
+            end
+            pre: self.operativo = false
+            post:self.operativo = true
+end
+
+class Operario
+    attributes
+        calleAtraccionAtendida : String
+        numeroUnidadAtendida : Integer 
+    operations
+        comenzarSupervision(c : String, n : Integer) 
+            begin 
+            self.dispositivo.operativo := false;
+            self.calleAtraccionAtendida := c;
+            self.numeroUnidadAtendida := n;
+            end 
+            pre: self.dispositivo.operativo = true
+            post: self.dispositivo.operativo = false and self.calleAtraccionAtendida <> null and self.numeroUnidadAtendida <> null 
+        terminarSupervision()
+            begin
+            self.dispositivo.averiaSolucionada(self.calleAtraccionAtendida, self.numeroUnidadAtendida);
+            self.calleAtraccionAtendida := null;
+            self.numeroUnidadAtendida := null;
+            end 
+            pre: self.dispositivo.operativo = false 
+            post:  self.calleAtraccionAtendida = null and self.numeroUnidadAtendida = null;
+    statemachines
+        psm Trabajo
+            states
+            s : initial 
+            Trabajando 
+            Libre 
+            transitions
+            s -> Libre 
+            Trabajando -> Libre {terminarSupervision()[self.dispositivo.operativo = true]}
+            Libre -> Trabajando {comenzarSupervision() [self.dispositivo.operativo = false]} 
+            end 
+end
+
+association Deteccion between 
+    Unidad [1] role unidad
+    Detector [0..1] role detector 
+end 
+
+association Posesion between
+    Dispositivo [*] role dispositivos
+    CRA [1] role cra 
+end 
+
+association Uso between 
+    Operario [1] role operario 
+    Dispositivo [1] role dispositivo 
+end 
+
+association Notificacion between 
+    CRA [1] role cra 
+    Unidad [*] role unidades
+end 
+
+aggregation VehiculoNoria between 
+    Noria [1] role noria
+    Vehiculo [*] role vehiculos 
+end 
+
+aggregation VagonMontaniaRusa between 
+    MontaniaRusa [1] role montaniaRusa
+    Vagon [*] role vagones
+end 
+
+constraints 
+
+-- R1. Cada una de las unidades del parque tendrá un identificador único.
+context Unidad inv IdentificadorUnico:
+    Unidad.allInstances()->forAll(x, y | x <> y implies x.numero <> y.numero)
+
+-- R2. Los identificadores de las unidades no pueden ser nulos.
+context Unidad inv IdentificadorUnicoNoNulo:
+    self.numero <> null 
+
+-- R3. Todos los vehículos de una noria tendrán detector.
+context Noria inv VehiculosDetectores:
+    self.vehiculos.detector <> null
+
+-- R4. Todos los vagones de una montaña rusa tendrán detector menos el delantero.
+context MontaniaRusa inv VagonesDetectores:
+    (self.vagones->size() = (self.vagones->select(x | x.detector <> null))->size() + 1) or self.vagones->size() = 0
+
+-- R5. Toda atracción debe tener una calle.
+context Atraccion inv NombreCalle:
+    self.calle <> null
