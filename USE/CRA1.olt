@@ -13,8 +13,8 @@
     <node id="Operario1" sizeCalculated="true" type="Object">
         <name>Operario1</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>1249.8482742353904</x>
-            <y>132.910231801598</y>
+            <x>1273.8482742353904</x>
+            <y>272.910231801598</y>
         </strategy>
         <hidden>false</hidden>
     </node>
@@ -29,16 +29,16 @@
     <node id="Operario2" sizeCalculated="true" type="Object">
         <name>Operario2</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>845.1949078456531</x>
-            <y>25.602969575255372</y>
+            <x>1287.1949078456532</x>
+            <y>59.60296957525537</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Operario3" sizeCalculated="true" type="Object">
         <name>Operario3</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>1318.9601454099152</x>
-            <y>481.7322198071163</y>
+            <x>1254.9601454099152</x>
+            <y>393.7322198071163</y>
         </strategy>
         <hidden>false</hidden>
     </node>
@@ -69,56 +69,48 @@
     <node id="Detector1" sizeCalculated="true" type="Object">
         <name>Detector1</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>466.12600273234114</x>
-            <y>272.08704628825626</y>
+            <x>760.1260027323411</x>
+            <y>130.08704628825626</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Detector4" sizeCalculated="true" type="Object">
         <name>Detector4</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>372.1176994307341</x>
-            <y>341.712697901233</y>
+            <x>312.1176994307341</x>
+            <y>231.712697901233</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Detector5" sizeCalculated="true" type="Object">
         <name>Detector5</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>167.37901897745542</x>
-            <y>474.41114519277653</y>
+            <x>203.37901897745542</x>
+            <y>413.41114519277653</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Detector3" sizeCalculated="true" type="Object">
         <name>Detector3</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>392.36918258115975</x>
-            <y>653.5239109806039</y>
+            <x>318.36918258115975</x>
+            <y>642.5239109806039</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Dispositivo3" sizeCalculated="true" type="Object">
         <name>Dispositivo3</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>1115.0515224485348</x>
-            <y>261.24619256045054</y>
-        </strategy>
-        <hidden>false</hidden>
-    </node>
-    <node id="Clock1" sizeCalculated="true" type="Object">
-        <name>Clock1</name>
-        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>902.1315015803839</x>
-            <y>509.5825134859574</y>
+            <x>1121.0515224485348</x>
+            <y>275.24619256045054</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Dispositivo2" sizeCalculated="true" type="Object">
         <name>Dispositivo2</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>980.5930352086989</x>
-            <y>62.57562156596691</y>
+            <x>1052.593035208699</x>
+            <y>59.57562156596691</y>
         </strategy>
         <hidden>false</hidden>
     </node>
@@ -133,52 +125,133 @@
     <node id="Vehiculo3" sizeCalculated="true" type="Object">
         <name>Vehiculo3</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>85.55830920077369</x>
-            <y>542.817708484426</y>
+            <x>115.55830920077369</x>
+            <y>528.817708484426</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Vehiculo1" sizeCalculated="true" type="Object">
         <name>Vehiculo1</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>12.835072267540198</x>
-            <y>637.9576478391215</y>
+            <x>2.8350722675401983</x>
+            <y>650.9576478391215</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Vagon2" sizeCalculated="true" type="Object">
         <name>Vagon2</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>306.97056851997036</x>
-            <y>196.20400619806952</y>
+            <x>600.9705685199704</x>
+            <y>137.20400619806952</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Vehiculo2" sizeCalculated="true" type="Object">
         <name>Vehiculo2</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>226.4159778804035</x>
-            <y>422.31194730592995</y>
+            <x>243.4159778804035</x>
+            <y>343.31194730592995</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <edge type="BinaryEdge">
-        <source>Dispositivo1</source>
-        <target>CRA1</target>
-        <name>Posesion</name>
+        <source>CRA1</source>
+        <target>Vehiculo3</target>
+        <name>Notificacion</name>
         <properties>
-            <edgeproperty id="[Posesion : (cra:CRA1, dispositivos:Dispositivo1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>unidades</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[Posesion : (cra:CRA1, dispositivos:Dispositivo1)]::WayPoint::1</attached>
+                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>cra</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>Notificacion</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::0</related0>
+                        <related1>[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::0" sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::1" sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[Notificacion : (cra:CRA1, unidades:Vehiculo3)]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>Dispositivo1</source>
+        <target>CRA1</target>
+        <name>Posesion</name>
+        <properties>
             <edgeproperty id="[Posesion : (cra:CRA1, dispositivos:Dispositivo1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
                 <name>cra</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -191,26 +264,12 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Posesion : (cra:CRA1, dispositivos:Dispositivo1)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>Posesion</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[Posesion : (cra:CRA1, dispositivos:Dispositivo1)]::WayPoint::0</related0>
-                        <related1>[Posesion : (cra:CRA1, dispositivos:Dispositivo1)]::WayPoint::1</related1>
-                    </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Posesion : (cra:CRA1, dispositivos:Dispositivo1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>*</name>
+            <edgeproperty id="[Posesion : (cra:CRA1, dispositivos:Dispositivo1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[Posesion : (cra:CRA1, dispositivos:Dispositivo1)]::WayPoint::0</attached>
+                    <attached>[Posesion : (cra:CRA1, dispositivos:Dispositivo1)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -226,6 +285,32 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Posesion : (cra:CRA1, dispositivos:Dispositivo1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Posesion : (cra:CRA1, dispositivos:Dispositivo1)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Posesion : (cra:CRA1, dispositivos:Dispositivo1)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>Posesion</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Posesion : (cra:CRA1, dispositivos:Dispositivo1)]::WayPoint::0</related0>
+                        <related1>[Posesion : (cra:CRA1, dispositivos:Dispositivo1)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -257,207 +342,9 @@
     </edge>
     <edge type="BinaryEdge">
         <source>CRA1</source>
-        <target>Vehiculo3</target>
-        <name>Notificacion</name>
-        <properties>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>*</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>unidades</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>Notificacion</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::0</related0>
-                        <related1>[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::1</related1>
-                    </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>cra</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-        </properties>
-        <waypoints>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::0" sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
-                <name>0</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                </strategy>
-                <id>0</id>
-                <specialid>1</specialid>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo3)]::WayPoint::1" sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                </strategy>
-                <id>1</id>
-                <specialid>2</specialid>
-                <hidden>false</hidden>
-            </edgeproperty>
-        </waypoints>
-        <hidden>false</hidden>
-        <linkValue>[Notificacion : (cra:CRA1, unidades:Vehiculo3)]</linkValue>
-    </edge>
-    <edge type="BinaryEdge">
-        <source>Vehiculo2</source>
-        <target>Detector4</target>
-        <name>Deteccion</name>
-        <properties>
-            <edgeproperty id="[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>0..1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>detector</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>Deteccion</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::0</related0>
-                        <related1>[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::1</related1>
-                    </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>unidad</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-        </properties>
-        <waypoints>
-            <edgeproperty id="[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::0" sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
-                <name>0</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                </strategy>
-                <id>0</id>
-                <specialid>1</specialid>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::1" sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                </strategy>
-                <id>1</id>
-                <specialid>2</specialid>
-                <hidden>false</hidden>
-            </edgeproperty>
-        </waypoints>
-        <hidden>false</hidden>
-        <linkValue>[Deteccion : (detector:Detector4, unidad:Vehiculo2)]</linkValue>
-    </edge>
-    <edge type="BinaryEdge">
-        <source>CRA1</source>
         <target>Vagon3</target>
         <name>Notificacion</name>
         <properties>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vagon3)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>unidades</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Notificacion : (cra:CRA1, unidades:Vagon3)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vagon3)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>*</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -470,26 +357,12 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vagon3)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>Notificacion</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[Notificacion : (cra:CRA1, unidades:Vagon3)]::WayPoint::0</related0>
-                        <related1>[Notificacion : (cra:CRA1, unidades:Vagon3)]::WayPoint::1</related1>
-                    </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vagon3)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>cra</name>
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vagon3)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>unidades</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[Notificacion : (cra:CRA1, unidades:Vagon3)]::WayPoint::0</attached>
+                    <attached>[Notificacion : (cra:CRA1, unidades:Vagon3)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
@@ -505,6 +378,32 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vagon3)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>cra</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Notificacion : (cra:CRA1, unidades:Vagon3)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vagon3)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>Notificacion</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Notificacion : (cra:CRA1, unidades:Vagon3)]::WayPoint::0</related0>
+                        <related1>[Notificacion : (cra:CRA1, unidades:Vagon3)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -543,75 +442,75 @@
         <linkValue>[Notificacion : (cra:CRA1, unidades:Vagon3)]</linkValue>
     </edge>
     <edge type="BinaryEdge">
-        <source>CRA1</source>
-        <target>Clock1</target>
-        <name>Time</name>
+        <source>Vehiculo2</source>
+        <target>Detector4</target>
+        <name>Deteccion</name>
         <properties>
-            <edgeproperty id="[Time : (clock:Clock1, cras:CRA1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
+            <edgeproperty id="[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>detector</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[Time : (clock:Clock1, cras:CRA1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Time : (clock:Clock1, cras:CRA1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>clock</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Time : (clock:Clock1, cras:CRA1)]::WayPoint::1</attached>
+                    <attached>[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Time : (clock:Clock1, cras:CRA1)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>Time</name>
+            <edgeproperty id="[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>0..1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>unidad</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>Deteccion</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
                     <offsetX>0.0</offsetX>
                     <offsetY>-10.0</offsetY>
                     <related length="2">
-                        <related0>[Time : (clock:Clock1, cras:CRA1)]::WayPoint::0</related0>
-                        <related1>[Time : (clock:Clock1, cras:CRA1)]::WayPoint::1</related1>
+                        <related0>[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::0</related0>
+                        <related1>[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::1</related1>
                     </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Time : (clock:Clock1, cras:CRA1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>cras</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Time : (clock:Clock1, cras:CRA1)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Time : (clock:Clock1, cras:CRA1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>*</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Time : (clock:Clock1, cras:CRA1)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
         </properties>
         <waypoints>
-            <edgeproperty id="[Time : (clock:Clock1, cras:CRA1)]::WayPoint::0" sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+            <edgeproperty id="[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::0" sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
                 <name>0</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
                     <userOffsetX>0.0</userOffsetX>
@@ -621,7 +520,7 @@
                 <specialid>1</specialid>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Time : (clock:Clock1, cras:CRA1)]::WayPoint::1" sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
+            <edgeproperty id="[Deteccion : (detector:Detector4, unidad:Vehiculo2)]::WayPoint::1" sizeCalculated="true" type="WayPoint" userDefined="false" visible="true">
                 <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
                     <userOffsetX>0.0</userOffsetX>
@@ -633,13 +532,25 @@
             </edgeproperty>
         </waypoints>
         <hidden>false</hidden>
-        <linkValue>[Time : (clock:Clock1, cras:CRA1)]</linkValue>
+        <linkValue>[Deteccion : (detector:Detector4, unidad:Vehiculo2)]</linkValue>
     </edge>
     <edge type="BinaryEdge">
         <source>CRA1</source>
         <target>Vehiculo1</target>
         <name>Notificacion</name>
         <properties>
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
             <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
                 <name>unidades</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -652,12 +563,24 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>*</name>
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>cra</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo1)]::WayPoint::1</attached>
+                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo1)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo1)]::WayPoint::0</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -675,30 +598,6 @@
                         <related0>[Notificacion : (cra:CRA1, unidades:Vehiculo1)]::WayPoint::0</related0>
                         <related1>[Notificacion : (cra:CRA1, unidades:Vehiculo1)]::WayPoint::1</related1>
                     </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo1)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>cra</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo1)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -733,18 +632,6 @@
         <target>Detector3</target>
         <name>Deteccion</name>
         <properties>
-            <edgeproperty id="[Deteccion : (detector:Detector3, unidad:Vehiculo1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>detector</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Deteccion : (detector:Detector3, unidad:Vehiculo1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[Deteccion : (detector:Detector3, unidad:Vehiculo1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>0..1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -757,26 +644,12 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Deteccion : (detector:Detector3, unidad:Vehiculo1)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>Deteccion</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[Deteccion : (detector:Detector3, unidad:Vehiculo1)]::WayPoint::0</related0>
-                        <related1>[Deteccion : (detector:Detector3, unidad:Vehiculo1)]::WayPoint::1</related1>
-                    </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[Deteccion : (detector:Detector3, unidad:Vehiculo1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>unidad</name>
+            <edgeproperty id="[Deteccion : (detector:Detector3, unidad:Vehiculo1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>detector</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[Deteccion : (detector:Detector3, unidad:Vehiculo1)]::WayPoint::0</attached>
+                    <attached>[Deteccion : (detector:Detector3, unidad:Vehiculo1)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
@@ -792,6 +665,32 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Deteccion : (detector:Detector3, unidad:Vehiculo1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>unidad</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Deteccion : (detector:Detector3, unidad:Vehiculo1)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Deteccion : (detector:Detector3, unidad:Vehiculo1)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>Deteccion</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Deteccion : (detector:Detector3, unidad:Vehiculo1)]::WayPoint::0</related0>
+                        <related1>[Deteccion : (detector:Detector3, unidad:Vehiculo1)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -826,18 +725,6 @@
         <target>Dispositivo3</target>
         <name>Uso</name>
         <properties>
-            <edgeproperty id="[Uso : (dispositivo:Dispositivo3, operario:Operario1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Uso : (dispositivo:Dispositivo3, operario:Operario1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[Uso : (dispositivo:Dispositivo3, operario:Operario1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
                 <name>dispositivo</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -850,17 +737,15 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Uso : (dispositivo:Dispositivo3, operario:Operario1)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>Uso</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+            <edgeproperty id="[Uso : (dispositivo:Dispositivo3, operario:Operario1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[Uso : (dispositivo:Dispositivo3, operario:Operario1)]::WayPoint::0</related0>
-                        <related1>[Uso : (dispositivo:Dispositivo3, operario:Operario1)]::WayPoint::1</related1>
-                    </related>
+                    <attached>[Uso : (dispositivo:Dispositivo3, operario:Operario1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -885,6 +770,20 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Uso : (dispositivo:Dispositivo3, operario:Operario1)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>Uso</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Uso : (dispositivo:Dispositivo3, operario:Operario1)]::WayPoint::0</related0>
+                        <related1>[Uso : (dispositivo:Dispositivo3, operario:Operario1)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -943,20 +842,6 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Uso : (dispositivo:Dispositivo1, operario:Operario3)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>Uso</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[Uso : (dispositivo:Dispositivo1, operario:Operario3)]::WayPoint::0</related0>
-                        <related1>[Uso : (dispositivo:Dispositivo1, operario:Operario3)]::WayPoint::1</related1>
-                    </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[Uso : (dispositivo:Dispositivo1, operario:Operario3)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -978,6 +863,20 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Uso : (dispositivo:Dispositivo1, operario:Operario3)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>Uso</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Uso : (dispositivo:Dispositivo1, operario:Operario3)]::WayPoint::0</related0>
+                        <related1>[Uso : (dispositivo:Dispositivo1, operario:Operario3)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1012,18 +911,6 @@
         <target>Dispositivo2</target>
         <name>Uso</name>
         <properties>
-            <edgeproperty id="[Uso : (dispositivo:Dispositivo2, operario:Operario2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>dispositivo</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Uso : (dispositivo:Dispositivo2, operario:Operario2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[Uso : (dispositivo:Dispositivo2, operario:Operario2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -1036,17 +923,15 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Uso : (dispositivo:Dispositivo2, operario:Operario2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>Uso</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+            <edgeproperty id="[Uso : (dispositivo:Dispositivo2, operario:Operario2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>dispositivo</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[Uso : (dispositivo:Dispositivo2, operario:Operario2)]::WayPoint::0</related0>
-                        <related1>[Uso : (dispositivo:Dispositivo2, operario:Operario2)]::WayPoint::1</related1>
-                    </related>
+                    <attached>[Uso : (dispositivo:Dispositivo2, operario:Operario2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1071,6 +956,20 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Uso : (dispositivo:Dispositivo2, operario:Operario2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>Uso</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Uso : (dispositivo:Dispositivo2, operario:Operario2)]::WayPoint::0</related0>
+                        <related1>[Uso : (dispositivo:Dispositivo2, operario:Operario2)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1129,17 +1028,15 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Posesion : (cra:CRA1, dispositivos:Dispositivo3)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>Posesion</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[Posesion : (cra:CRA1, dispositivos:Dispositivo3)]::WayPoint::0</related0>
-                        <related1>[Posesion : (cra:CRA1, dispositivos:Dispositivo3)]::WayPoint::1</related1>
-                    </related>
+            <edgeproperty id="[Posesion : (cra:CRA1, dispositivos:Dispositivo3)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>dispositivos</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>-1.0</userOffsetX>
+                    <userOffsetY>-55.0</userOffsetY>
+                    <attached>[Posesion : (cra:CRA1, dispositivos:Dispositivo3)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1155,15 +1052,17 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Posesion : (cra:CRA1, dispositivos:Dispositivo3)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="true" visible="true">
-                <name>dispositivos</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>-1.0</userOffsetX>
-                    <userOffsetY>-55.0</userOffsetY>
-                    <attached>[Posesion : (cra:CRA1, dispositivos:Dispositivo3)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
+            <edgeproperty id="[Posesion : (cra:CRA1, dispositivos:Dispositivo3)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>Posesion</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Posesion : (cra:CRA1, dispositivos:Dispositivo3)]::WayPoint::0</related0>
+                        <related1>[Posesion : (cra:CRA1, dispositivos:Dispositivo3)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1198,6 +1097,18 @@
         <target>Vehiculo1</target>
         <name>VehiculoNoria</name>
         <properties>
+            <edgeproperty id="[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>vehiculos</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
             <edgeproperty id="[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>*</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -1210,12 +1121,24 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>vehiculos</name>
+            <edgeproperty id="[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo1)]::WayPoint::1</attached>
+                    <attached>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo1)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>noria</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo1)]::WayPoint::0</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
@@ -1233,30 +1156,6 @@
                         <related0>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo1)]::WayPoint::0</related0>
                         <related1>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo1)]::WayPoint::1</related1>
                     </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>noria</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo1)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo1)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1315,20 +1214,6 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Posesion : (cra:CRA1, dispositivos:Dispositivo2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>Posesion</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[Posesion : (cra:CRA1, dispositivos:Dispositivo2)]::WayPoint::0</related0>
-                        <related1>[Posesion : (cra:CRA1, dispositivos:Dispositivo2)]::WayPoint::1</related1>
-                    </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[Posesion : (cra:CRA1, dispositivos:Dispositivo2)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
                 <name>dispositivos</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -1350,6 +1235,20 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Posesion : (cra:CRA1, dispositivos:Dispositivo2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>Posesion</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Posesion : (cra:CRA1, dispositivos:Dispositivo2)]::WayPoint::0</related0>
+                        <related1>[Posesion : (cra:CRA1, dispositivos:Dispositivo2)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1416,20 +1315,6 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Deteccion : (detector:Detector1, unidad:Vagon2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>Deteccion</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[Deteccion : (detector:Detector1, unidad:Vagon2)]::WayPoint::0</related0>
-                        <related1>[Deteccion : (detector:Detector1, unidad:Vagon2)]::WayPoint::1</related1>
-                    </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[Deteccion : (detector:Detector1, unidad:Vagon2)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
                 <name>unidad</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -1451,6 +1336,20 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Deteccion : (detector:Detector1, unidad:Vagon2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>Deteccion</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Deteccion : (detector:Detector1, unidad:Vagon2)]::WayPoint::0</related0>
+                        <related1>[Deteccion : (detector:Detector1, unidad:Vagon2)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1485,18 +1384,6 @@
         <target>Vagon2</target>
         <name>VagonMontaniaRusa</name>
         <properties>
-            <edgeproperty id="[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>*</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
                 <name>vagones</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -1509,26 +1396,12 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>VagonMontaniaRusa</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon2)]::WayPoint::0</related0>
-                        <related1>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon2)]::WayPoint::1</related1>
-                    </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon2)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
+            <edgeproperty id="[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>*</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon2)]::WayPoint::0</attached>
+                    <attached>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon2)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -1544,6 +1417,32 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon2)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon2)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>VagonMontaniaRusa</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon2)]::WayPoint::0</related0>
+                        <related1>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon2)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1578,18 +1477,6 @@
         <target>Vagon2</target>
         <name>Notificacion</name>
         <properties>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vagon2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>unidades</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Notificacion : (cra:CRA1, unidades:Vagon2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vagon2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>*</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -1602,17 +1489,15 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vagon2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>Notificacion</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vagon2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>unidades</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[Notificacion : (cra:CRA1, unidades:Vagon2)]::WayPoint::0</related0>
-                        <related1>[Notificacion : (cra:CRA1, unidades:Vagon2)]::WayPoint::1</related1>
-                    </related>
+                    <attached>[Notificacion : (cra:CRA1, unidades:Vagon2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1637,6 +1522,20 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vagon2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>Notificacion</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Notificacion : (cra:CRA1, unidades:Vagon2)]::WayPoint::0</related0>
+                        <related1>[Notificacion : (cra:CRA1, unidades:Vagon2)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1695,20 +1594,6 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo3)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>VehiculoNoria</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo3)]::WayPoint::0</related0>
-                        <related1>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo3)]::WayPoint::1</related1>
-                    </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo3)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
                 <name>noria</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -1730,6 +1615,20 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo3)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>VehiculoNoria</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo3)]::WayPoint::0</related0>
+                        <related1>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo3)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1764,18 +1663,6 @@
         <target>Vagon3</target>
         <name>VagonMontaniaRusa</name>
         <properties>
-            <edgeproperty id="[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon3)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>vagones</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon3)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon3)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>*</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -1788,26 +1675,12 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon3)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>VagonMontaniaRusa</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon3)]::WayPoint::0</related0>
-                        <related1>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon3)]::WayPoint::1</related1>
-                    </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon3)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>montaniaRusa</name>
+            <edgeproperty id="[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon3)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>vagones</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon3)]::WayPoint::0</attached>
+                    <attached>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon3)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
@@ -1823,6 +1696,32 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon3)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>montaniaRusa</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon3)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon3)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>VagonMontaniaRusa</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon3)]::WayPoint::0</related0>
+                        <related1>[VagonMontaniaRusa : (montaniaRusa:MontaniaRusa3, vagones:Vagon3)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1881,20 +1780,6 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>VehiculoNoria</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo2)]::WayPoint::0</related0>
-                        <related1>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo2)]::WayPoint::1</related1>
-                    </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo2)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
                 <name>noria</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -1916,6 +1801,20 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>VehiculoNoria</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo2)]::WayPoint::0</related0>
+                        <related1>[VehiculoNoria : (noria:Noria1, vehiculos:Vehiculo2)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1950,18 +1849,6 @@
         <target>Vehiculo2</target>
         <name>Notificacion</name>
         <properties>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>unidades</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>*</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -1974,17 +1861,15 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>Notificacion</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>unidades</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[Notificacion : (cra:CRA1, unidades:Vehiculo2)]::WayPoint::0</related0>
-                        <related1>[Notificacion : (cra:CRA1, unidades:Vehiculo2)]::WayPoint::1</related1>
-                    </related>
+                    <attached>[Notificacion : (cra:CRA1, unidades:Vehiculo2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -2009,6 +1894,20 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[Notificacion : (cra:CRA1, unidades:Vehiculo2)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>Notificacion</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Notificacion : (cra:CRA1, unidades:Vehiculo2)]::WayPoint::0</related0>
+                        <related1>[Notificacion : (cra:CRA1, unidades:Vehiculo2)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -2067,17 +1966,15 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Deteccion : (detector:Detector5, unidad:Vehiculo3)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
-                <name>Deteccion</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+            <edgeproperty id="[Deteccion : (detector:Detector5, unidad:Vehiculo3)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>unidad</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <offsetX>0.0</offsetX>
-                    <offsetY>-10.0</offsetY>
-                    <related length="2">
-                        <related0>[Deteccion : (detector:Detector5, unidad:Vehiculo3)]::WayPoint::0</related0>
-                        <related1>[Deteccion : (detector:Detector5, unidad:Vehiculo3)]::WayPoint::1</related1>
-                    </related>
+                    <attached>[Deteccion : (detector:Detector5, unidad:Vehiculo3)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -2093,15 +1990,17 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[Deteccion : (detector:Detector5, unidad:Vehiculo3)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>unidad</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+            <edgeproperty id="[Deteccion : (detector:Detector5, unidad:Vehiculo3)]::AssociationName" sizeCalculated="true" type="associationName" userDefined="false" visible="true">
+                <name>Deteccion</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[Deteccion : (detector:Detector5, unidad:Vehiculo3)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Deteccion : (detector:Detector5, unidad:Vehiculo3)]::WayPoint::0</related0>
+                        <related1>[Deteccion : (detector:Detector5, unidad:Vehiculo3)]::WayPoint::1</related1>
+                    </related>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>

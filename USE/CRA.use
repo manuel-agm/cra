@@ -3,6 +3,7 @@ model CRA
 class Detector
     attributes
         bienAnclado : Boolean init = true
+        esperando : Boolean init = false
     operations
         perderAnclaje()
             begin
@@ -11,6 +12,25 @@ class Detector
             end 
             pre: self.bienAnclado = true 
             post: self.bienAnclado = false
+        unidadArreglada()
+            begin 
+            self.bienAnclado := true;
+            if self.esperando = true then self.esperando := false end;
+            self.unidad.reanudar();
+            end  
+            pre: self.bienAnclado = false 
+            post: self.bienAnclado = true and self.esperando = false
+    statemachines
+        psm Anclaje
+            states
+            s : initial 
+            BienAnclada 
+            MalAnclada 
+            transitions
+            s -> BienAnclada 
+            BienAnclada -> MalAnclada {[self.esperando = false] perderAnclaje() [self.bienAnclado = false]}
+            MalAnclada -> BienAnclada {unidadArreglada() [self.bienAnclado = true]}
+            end 
 end
 
 abstract class Unidad 
@@ -20,42 +40,31 @@ abstract class Unidad
         comunicarPerdida()
             begin 
             end
-        unidadArreglada()
-            begin 
-            end
         espera()
             begin 
             end
-    statemachines
-        psm Anclaje
-            states
-            s : initial 
-            BienAnclada 
-            MalAnclada 
-            transitions
-            s -> BienAnclada 
-            BienAnclada -> MalAnclada {comunicarPerdida() [self.detector.bienAnclado = false]}
-            MalAnclada -> BienAnclada {unidadArreglada() [self.detector.bienAnclado = true]}
-            end 
+        reanudar()
+            begin 
+            end
+
 end 
  
 class Vehiculo < Unidad 
     operations 
         comunicarPerdida()
             begin   
-            self.noria.parada();
+            if self.noria.operativo = true then self.noria.parada() end;
             self.cra.peticion(self, self.noria);
             end
-        unidadArreglada()
-            begin 
-            self.detector.bienAnclado := true;
-            self.noria.estaOperativo();
-            end  
-            pre: self.detector.bienAnclado = false 
-            post: self.detector.bienAnclado = true
         espera()
             begin 
-            self.cra.peticion(self, self.noria);
+            self.detector.esperando := true;
+            end
+            pre: self.detector.esperando = false
+            post: self.detector.esperando = true
+        reanudar()
+            begin 
+            self.noria.estaOperativo();
             end
 end
 
@@ -63,19 +72,18 @@ class Vagon < Unidad
     operations 
         comunicarPerdida()
             begin   
-            self.montaniaRusa.parada();
+            if self.montaniaRusa.operativo = true then self.montaniaRusa.parada() end;
             self.cra.peticion(self, self.montaniaRusa);
             end
-        unidadArreglada()
-            begin 
-            self.detector.bienAnclado := true;
-            self.montaniaRusa.estaOperativo();
-            end  
-            pre: self.detector.bienAnclado = false 
-            post: self.detector.bienAnclado = true
         espera()
-            begin
-            self.cra.peticion(self, self.montaniaRusa);
+            begin 
+            self.detector.esperando := true;
+            end
+            pre: self.detector.esperando = false
+            post: self.detector.esperando = true
+        reanudar()
+            begin 
+            self.montaniaRusa.estaOperativo();
             end
 end
 
@@ -90,6 +98,9 @@ abstract class Atraccion
         estaOperativo()
             begin 
             end 
+        reanudar()
+            begin
+            end
     statemachines
         psm Estado
             states 
@@ -98,8 +109,8 @@ abstract class Atraccion
             Averiada 
             transitions
             s -> Operativa 
-            Operativa -> Averiada {parada() [self.operativo = false]}
-            Averiada -> Operativa {estaOperativo() [self.operativo = true]} 
+            Operativa -> Averiada {[self.operativo = true] parada() [self.operativo = false]}
+            Averiada -> Operativa {[self.operativo = false] reanudar() [self.operativo = true]} 
             end
 end
 
@@ -107,26 +118,38 @@ class Noria < Atraccion
     operations
         parada()
             begin   
-            if self.operativo = true then self.operativo := false end
+            self.operativo := false
             end
             post: self.operativo = false
         estaOperativo() 
             begin
-            if self.vehiculos.detector->forAll(x | x.bienAnclado = true or x = null) then self.operativo := true end
+            if self.vehiculos.detector->forAll(x | x.bienAnclado = true or x = null) then self.reanudar() end
             end  
+        reanudar()
+            begin 
+            self.operativo := true;
+            end 
+            pre: self.operativo = false
+            post: self.operativo = true
 end
 
 class MontaniaRusa < Atraccion
     operations
         parada()
             begin   
-            if self.operativo = true then self.operativo := false end
+            self.operativo := false
             end
             post: self.operativo = false
         estaOperativo() 
             begin
-            if self.vagones.detector->forAll(x | x.bienAnclado = true or x = null) then self.operativo := true end
+            if self.vagones.detector->forAll(x | x.bienAnclado = true or x = null) then self.reanudar() end
             end  
+        reanudar() 
+            begin 
+            self.operativo := true;
+            end 
+            pre: self.operativo = false
+            post: self.operativo = true
 end
 
 class CRA
@@ -150,10 +173,10 @@ class Dispositivo
             begin
             self.avisosResueltos := self.avisosResueltos + 1;
             self.operativo := true;
-            (self.cra.unidades->select(x | x.numero = n)->asSequence()->first()).unidadArreglada();
+            (self.cra.unidades->select(x | x.numero = n)->asSequence()->first()).detector.unidadArreglada();
+            if self.cra.unidades.detector->select(x | x.esperando = true)->size() > 0 then self.cra.unidades->select(x | x.detector.esperando = true)->asSequence()->first().comunicarPerdida() end;
             end
             pre: self.operativo = false
-            post:self.operativo = true
 end
 
 class Operario
@@ -171,9 +194,9 @@ class Operario
             post: self.dispositivo.operativo = false and self.calleAtraccionAtendida <> null and self.numeroUnidadAtendida <> null 
         terminarSupervision()
             begin
-            self.dispositivo.averiaSolucionada(self.calleAtraccionAtendida, self.numeroUnidadAtendida);
             self.calleAtraccionAtendida := null;
             self.numeroUnidadAtendida := null;
+            self.dispositivo.averiaSolucionada(self.calleAtraccionAtendida, self.numeroUnidadAtendida);
             end 
             pre: self.dispositivo.operativo = false 
             post:  self.calleAtraccionAtendida = null and self.numeroUnidadAtendida = null;
@@ -185,7 +208,7 @@ class Operario
             Libre 
             transitions
             s -> Libre 
-            Trabajando -> Libre {terminarSupervision()[self.dispositivo.operativo = true]}
+            Trabajando -> Libre {terminarSupervision()}
             Libre -> Trabajando {comenzarSupervision() [self.dispositivo.operativo = false]} 
             end 
 end
@@ -227,7 +250,7 @@ context Unidad inv IdentificadorUnico:
     Unidad.allInstances()->forAll(x, y | x <> y implies x.numero <> y.numero)
 
 -- R2. Los identificadores de las unidades no pueden ser nulos.
-context Unidad inv IdentificadorUnicoNoNulo:
+context Unidad inv IdentificadorNoNulo:
     self.numero <> null 
 
 -- R3. Todos los vehículos de una noria tendrán detector.
